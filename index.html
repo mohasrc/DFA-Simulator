@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>DFA</title>
+</head>
+
+<body>
+  <div id="contaner">
+    <h1>DFA</h1>
+    <form>
+      <center><div id="fa-result"></div></center>
+      <label for="fa-q">Q: </label>
+      <input id="fa-q" name="fa-q" type="text" placeholder="stats name"><br>
+      <label for="fa-sigma">&Sigma;: </label>
+      <input id="fa-sigma" name="fa-sigma" type="text" placeholder="alphabet"><br>
+      <center><input name="fa-delta-generate" type="button" value="generate &delta;" onclick="generateTable()"><br>
+      </center>
+      <label id="fa-delta-label" for="fa-delta" style="display: none;">Fill in the table for &delta;</label><br>
+      <center><table id="fa-delta-table" border="1px" hidden></table></center>
+      <label for="fa-q0">q<sub>0</sub>: </label>
+      <input id="fa-q0" name="fa-q0" type="text" placeholder="initial state"><br>
+      <label for="fa-f">F: </label>
+      <input id="fa-f" name="fa-f" type="text" placeholder="accepting state/s"><br>
+      <label for="fa-input">Input: </label>
+      <input id="fa-input" name="fa-input" type="text" placeholder="Input String">
+      <center><input type="button" value="check" onclick="check()"></center>
+    </form>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

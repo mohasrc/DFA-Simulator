@@ -1,0 +1,45 @@
+#contaner {
+  width: 50%;
+  height: 80%;
+  margin: auto;
+  background-color: rgb(182, 182, 182);
+  border-radius: 50px;
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  font-size: larger;
+  width: 15%;
+  display: inline-block;
+}
+
+#fa-delta-label {
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+input[type="text"] {
+  width: 80%;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+input[type="button"] {
+  width: 40%;
+  border-radius: 100px;  
+}
+table {
+  border: 1px solid black;
+  margin: 5px;
+}
+
+#fa-result {
+  font-size: 2rem;
+}
